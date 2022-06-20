@@ -1,0 +1,54 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+.header{
+    height:80px;
+    color: white;
+    background-color:#263a70;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-sizing:border-box;
+    padding-left:20px;
+    font-size:23px;
+    font-weight:bold;
+}
+.homeMainContainer{
+    width: 100%;
+    height:calc(100vh - 80px);
+    border: 1px solid red;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.subscribeFormContainer{
+    width:40%;
+    border: 0px solid red;
+}
+.subscribeLabel{
+    font-size:20px;
+}
+.subscribeInput{
+    width: 100%;
+    height: 40px;
+    border-radius: 2px;
+    border:2px solid black;
+    margin-top:5px;
+    box-sizing:border-box;
+    padding-left:10px;
+}
+.submitBtn{
+    background-color: #263a70;
+    color: white;
+    border-radius: 2px;
+    padding:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border:0px;
+    font-size:15px;
+    margin-top:8px;
+    cursor: pointer;
+}
+.txt-cnt{
+    text-align:center;
+}
